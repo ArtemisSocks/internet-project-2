@@ -24,3 +24,7 @@ function randomize() {
     let which = Math.floor(Math.random() * 4) + 1;
     return which;
 } 
+
+function workingbutton() {
+  "randomize": document.getElementById("randomize");
+}

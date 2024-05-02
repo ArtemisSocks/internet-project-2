@@ -25,6 +25,7 @@ function randomize() {
     return which;
 } 
 
-function workingbutton() {
-  "randomize": document.getElementById("randomize");
+function button() {
+  let certain = document.getElementById("randomize");
+
 }

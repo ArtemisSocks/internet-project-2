@@ -24,7 +24,7 @@ async function getCat() {
 function randomize() {
     let which = [];
     let randomNumber = Math.floor(Math.random() * 4) + 1;
-    which.push(randomNumber;
+    which.push(randomNumber);
     globals.push(which); 
     return which;
 } 

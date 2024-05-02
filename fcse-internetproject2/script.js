@@ -18,18 +18,19 @@ async function getCat() {
     alert("HTTP-Error: " + response.status);
   }
     let cat = getCat[0].url
+    getCat();
 }
 
 
 
 function randomize() {
     let randomNumber = Math.floor(Math.random() * 4) + 1;
-    rand = randomNumber;
+    rand = ramdomNumber;
 } 
 
 function button(i) {
- if ( i = rand){
-     getCat();
+ if (i = rand){
+     console.log(cat);
 
  }
 else

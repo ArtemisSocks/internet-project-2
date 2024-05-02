@@ -25,7 +25,7 @@ async function getCat() {
 
 function randomize() {
     let randomNumber = Math.floor(Math.random() * 4) + 1;
-    rand = ramdomNumber;
+    rand = randomNumber;
 } 
 
 function button(i) {

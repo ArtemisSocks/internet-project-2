@@ -5,6 +5,7 @@
  * https://api.thecatapi.com/v1/images/search
  */
 
+const globals = { button : [] };
 
 async function getCat() {
   let response = await fetch("https://api.thecatapi.com/v1/images/search");
@@ -21,7 +22,10 @@ async function getCat() {
 
 
 function randomize() {
-    let which = Math.floor(Math.random() * 4) + 1;
+    let which = [];
+    let randomNumber = Math.floor(Math.random() * 4) + 1;
+    which.push(randomNumber;
+    globals.push(which); 
     return which;
 } 
 
@@ -29,3 +33,9 @@ function button() {
   let certain = document.getElementById("randomize");
 
 }
+
+
+
+
+
+

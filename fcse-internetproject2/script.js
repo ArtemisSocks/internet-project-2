@@ -13,12 +13,12 @@ async function getCat() {
   if (response.ok) {
     let json = await response.json();
       let url = json[0].url
+      document.getElementById("cat").src = url;
     console.log(url);
   } else {
     alert("HTTP-Error: " + response.status);
   }
-    let cat = getCat[0].url
-    getCat();
+
 }
 
 
@@ -29,15 +29,16 @@ function randomize() {
 } 
 
 function button(i) {
- if (i = rand){
+ if (i == rand){
      console.log(cat);
+     getCat();
 
  }
-else
-    console.log("TRY AGAIN");
+else{
+    document.getElementById("words").innerText = "Try again";
 }
 
-
+}
 
 
 
